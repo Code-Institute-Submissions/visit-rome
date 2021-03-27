@@ -17,7 +17,7 @@
 //         { lat: 41.80112362294129, lng: 12.493597818672233 },
 //         { lat: 41.70112362294129, lng: 12.493597818672233 }
 //     ];
-
+    
 //     var markers = locations.map(function (location, i) {
 //         return new google.maps.Marker({
 //             position: location,
@@ -45,6 +45,7 @@ function initMap() {
     var markers = [
         {
             coords:{lat: 42.3601, lng: -71.0589},
+            content: "<h2>Lynn AM</h2>",
         },
         {
             coords:{lat: 42.8584, lng: -70.9300},
@@ -71,6 +72,17 @@ function initMap() {
         position: props.coords,
         map:map
     });
+
+if (props.content) {
+    // add info window
+    var infoWindow = new google.maps.InfoWindow({
+        content: props.content,
+    });
+    // click on marker and open info window
+    marker.addListener('click', function() {
+        infoWindow.open(map, marker);
+    });
+}    
 
     }    
 
