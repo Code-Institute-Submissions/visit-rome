@@ -49,6 +49,7 @@ function initMap() {
         },
         {
             coords:{lat: 42.8584, lng: -70.9300},
+            content: "<h2>Amesbury MA</h2>",
         },
         {
             coords:{lat: 42.7762, lng: -71.0773},
