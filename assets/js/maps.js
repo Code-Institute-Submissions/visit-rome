@@ -46,6 +46,14 @@ function initMap() {
         position:{lat: 42.4668, lng: -70.9495},
         map:map
     });
+    // add info window
+    var infoWindow = new google.maps.InfoWindow({
+        content: "<h1>Lynm MA</h1>"
+    });
+    // click on marker and open info window
+    marker.addListener('click', function() {
+        infoWindow.open(map, marker);
+    });
 }
 
 
