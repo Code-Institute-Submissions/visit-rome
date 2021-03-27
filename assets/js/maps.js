@@ -41,9 +41,27 @@ function initMap() {
     // new map
     var map = new google.maps.Map(document.getElementById("map"), options);
 
-    addMarker({coords:{lat: 42.3601, lng: -71.0589}});
-    addMarker({coords:{lat: 42.8584, lng: -70.9300}});
-    addMarker({coords:{lat: 42.7762, lng: -71.0773}});
+    // array of markers
+    var markers = [
+        {
+            coords:{lat: 42.3601, lng: -71.0589},
+        },
+        {
+            coords:{lat: 42.8584, lng: -70.9300},
+        },
+        {
+            coords:{lat: 42.7762, lng: -71.0773},
+        }
+    ];
+
+    // works loop, here you can add if statement like if you call for name shops than proops.name.shops some like this
+    for (var i = 0; i < markers.length; i++) {
+        addMarker(markers[i]);
+    }
+
+    // addMarker({coords:{lat: 42.3601, lng: -71.0589}});
+    // addMarker({coords:{lat: 42.8584, lng: -70.9300}});
+    // addMarker({coords:{lat: 42.7762, lng: -71.0773}});
 
     // add marker function
     function addMarker(props) {
