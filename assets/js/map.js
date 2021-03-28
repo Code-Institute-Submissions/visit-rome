@@ -7,6 +7,8 @@ function initMap() {
     // new map called by id
     var map = new google.maps.Map(document.getElementById("map"), options);
     
+    /**
+
     // add marker
     var marker = new google.maps.Marker({
         // 41.90135225699609, 12.496885028954154 - Hotel Flower Garden
@@ -22,4 +24,16 @@ function initMap() {
     marker.addListener('click', function() {
         infoWindow.open(map, marker);
     });
+
+     */
+    
+    addMarker({lat: 41.90135225699609, lng: 12.496885028954154});  // 41.90135225699609, 12.496885028954154 - Hotel Flower Garden
+
+    // add Marker function
+    function addMarker(coordinates) {
+         var marker = new google.maps.Marker({
+        position: coordinates,
+        map:map,
+    });
+    }
 }
