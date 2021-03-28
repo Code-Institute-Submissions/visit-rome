@@ -11,6 +11,15 @@ function initMap() {
     var marker = new google.maps.Marker({
         // 41.90135225699609, 12.496885028954154 - Hotel Flower Garden
         position:{lat: 41.90135225699609, lng: 12.496885028954154},
-        map:map
+        map:map,
+    });
+
+    // add info window
+    var infoWindow = new google.maps.InfoWindow({
+        content: '<h2>Hotel Flower Garden</h2>'
+    });
+
+    marker.addListener('click', function() {
+        infoWindow.open(map, marker);
     });
 }
