@@ -27,11 +27,7 @@ function initMap() {
 
      */
 
-    addMarker();
-    addMarker();
-    addMarker();
-    addMarker();
-    addMarker();
+    
 
     // array of markers
     var markers = [
@@ -57,7 +53,9 @@ function initMap() {
         },
     ];
 
-    
+    for (var i = 0; i < markers.length; i++) {
+        addMarker(markers[i]);
+    }
 
     // add Marker function
     function addMarker(props) {
