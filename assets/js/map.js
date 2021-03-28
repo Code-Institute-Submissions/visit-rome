@@ -37,6 +37,7 @@ function initMap() {
     function addMarker(props) {
          var marker = new google.maps.Marker({
         position: props.coords,  // props are used to pass a parent component to a child component.
+        map:map,
     });
     }
 
