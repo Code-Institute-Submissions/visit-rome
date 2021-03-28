@@ -32,16 +32,20 @@ function initMap() {
         content: '<h3>Hotel Flower Garden</h3>', 
     });  
     addMarker({
-        coords: { lat: 41.903540194120055, lng: 12.493172906843931 }  // 41.903540194120055, 12.493172906843931 - Hotel Oceania
+        coords: { lat: 41.903540194120055, lng: 12.493172906843931 },  // 41.903540194120055, 12.493172906843931 - Hotel Oceania
+        content: '<h3>Hotel Oceania</h3>', 
     }); 
     addMarker({
-        coords: { lat: 41.9048177258281, lng: 12.500146775491771 }  // 41.9048177258281, 12.500146775491771 - Hotel Windrose
+        coords: { lat: 41.9048177258281, lng: 12.500146775491771 },  // 41.9048177258281, 12.500146775491771 - Hotel Windrose
+        content: '<h3>Hotel Windrose</h3>',
     }); 
     addMarker({
-        coords: { lat: 41.908123671239544, lng: 12.498108411416945 }  // 41.908123671239544, 12.498108411416945 - Marcella Royal Hotel
+        coords: { lat: 41.908123671239544, lng: 12.498108411416945 },  // 41.908123671239544, 12.498108411416945 - Marcella Royal Hotel
+        content: '<h3>Marcella Royal Hotel</h3>',
     }); 
     addMarker({
-        coords: { lat: 41.908890284572934, lng: 12.493601935040736 }  // 41.908890284572934, 12.493601935040736 - Romanico Palace Luxury Hotel & SPA
+        coords: { lat: 41.908890284572934, lng: 12.493601935040736 },  // 41.908890284572934, 12.493601935040736 - Romanico Palace Luxury Hotel & SPA
+        content: '<h3>Romanico Palace Luxury Hotel & SPA</h3>',
     }); 
 
     // add Marker function
