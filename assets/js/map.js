@@ -39,7 +39,7 @@ function initMap() {
                 lng: 12.496885028954154
             }, // 41.90135225699609, 12.496885028954154 - Hotel Flower Garden
             category: 'hotel',
-            content: '<h3>Hotel Flower Garden</h3>',
+            name: 'Hotel Flower Garden',
         },
         {
             coords: {
@@ -47,7 +47,7 @@ function initMap() {
                 lng: 12.493172906843931
             }, // 41.903540194120055, 12.493172906843931 - Hotel Oceania
             category: 'hotel',
-            content: '<h3>Hotel Oceania</h3>', // remove h3
+            name: 'Hotel Oceania', // remove h3
         },
         {
             coords: {
@@ -55,7 +55,7 @@ function initMap() {
                 lng: 12.500146775491771
             }, // 41.9048177258281, 12.500146775491771 - Hotel Windrose
             category: 'hotel',
-            content: '<h3>Hotel Windrose</h3>',
+            name: 'Hotel Windrose',
         },
         {
             coords: {
@@ -63,7 +63,7 @@ function initMap() {
                 lng: 12.498108411416945
             }, // 41.908123671239544, 12.498108411416945 - Marcella Royal Hotel
             category: 'hotel',
-            content: '<h3>Marcella Royal Hotel</h3>', // and remove h3 tag
+            name: 'Marcella Royal Hotel', // and remove h3 tag
         },
         {
             coords: {
@@ -71,7 +71,7 @@ function initMap() {
                 lng: 12.493601935040736
             }, // 41.908890284572934, 12.493601935040736 - Romanico Palace Luxury Hotel & SPA
             category: 'hotel',
-            content: '<h3>Romanico Palace Luxury Hotel & SPA</h3>',
+            name: 'Romanico Palace Luxury Hotel & SPA',
         },
     ];
 
@@ -87,7 +87,7 @@ function initMap() {
         });
 
         var infoWindow = new google.maps.InfoWindow({
-            content: props.content // content: `<h3>${props.content}</h3>` replace Brian
+             content: `<h6>${props.name}</h6>`  // replace Brian : content: props.name
         });
         marker.addListener('click', function() {
             infoWindow.open(map, marker);
