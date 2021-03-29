@@ -58,7 +58,21 @@ button.navbar-toggler {
 
 footer {
     min-height: 120px;
-    margin: 0;
+    margin-top: 30px;
     background-color: rgb(87, 77, 77);
     color: #fafafa;
+}
+
+footer h5 {
+    margin: 20px 0;
+        margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.social-links {
+    padding: 20px 0;
+        padding: 20px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
