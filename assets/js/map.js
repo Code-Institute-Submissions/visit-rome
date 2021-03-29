@@ -105,6 +105,36 @@ function initMap() {
             name: 'Da Giovanni Restaurant Since 1948',
             website: 'https://www.ristorantedagiovanniroma.it/',
         },
+        {
+            coords: {
+                lat: 41.901274317475746, 
+                lng: 12.498221010452486
+            }, // 41.901274317475746, 12.498221010452486 - Apotheke Cocktail Bar
+            category: 'bars',
+            name: 'Apotheke Cocktail Bar',
+            description: 'The bar is located in the hotel, in the Termini train station district,<br> a strategic location to enjoy Rome by night.',
+            website: 'https://www.welcomepiramhotel.com/it/cocktail-bar-roma/',
+        },
+         {
+            coords: {
+                lat: 41.90616086530456, 
+                lng: 12.502127568681882
+            }, // 41.90616086530456, 12.502127568681882 - Julius Caesar Gurgustium
+            category: 'bars',
+            name: 'Julius Caesar Gurgustium',
+            description: ' Pub Lounge, Cocktail & Dance Bar',
+            website: 'https://www.juliuscaesar.it/',
+        },
+         {
+            coords: {
+                lat: 41.89983673142455,  
+                lng: 12.471657099280323
+            }, // 41.89983673142455, 12.471657099280323 - La Botticella of Poggi Giovanni
+            category: 'bars',
+            name: 'La Botticella of Poggi Giovanni',
+            description: 'La Botticella Wine Bar Pub Sports Bar Craft Beers',
+            website: 'https://botticellapub.com/',
+        },
     ];
 
     for (var i = 0; i < markers.length; i++) {
@@ -121,6 +151,7 @@ function initMap() {
         var infoWindow = new google.maps.InfoWindow({
              content: `
              <h6>${props.name}</h6>
+             <p>${props.description}</p>
              <a href="${props.website}" target="_blank">Visite Website</a>
              `  // replace Brian : content: props.name
         });
