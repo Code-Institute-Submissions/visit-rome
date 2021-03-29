@@ -78,6 +78,33 @@ function initMap() {
             name: 'Romanico Palace Luxury Hotel & SPA',
             website: 'https://www.hotelromanico.com/en/',
         },
+        {
+            coords: {
+                lat: 41.90567478570767, 
+                lng: 12.502436441624294
+            }, // 41.90567478570767, 12.502436441624294 - Trattoria "Al Camoscio D'Abruzzo"
+            category: 'restaurants',
+            name: 'Trattoria Al Camoscio D Abruzzo',            
+            website: 'http://trattoria-roma.it/',
+        },
+        {
+            coords: {
+                lat: 41.90473267258463,
+                lng: 12.500483592990138
+            },  // 41.90473267258463, 12.500483592990138 -  La Famiglia
+            category: 'restaurants',
+            name: 'La Famiglia',
+            website: 'https://www.lafamiglia.space/',
+        },
+         {
+            coords: {
+                lat: 41.906122290884134, 
+                lng: 12.495591195614683
+            }, // 41.906122290884134, 12.495591195614683- Da Giovanni Restaurant Since 1948
+            category: 'restaurants',
+            name: 'Da Giovanni Restaurant Since 1948',
+            website: 'https://www.ristorantedagiovanniroma.it/',
+        },
     ];
 
     for (var i = 0; i < markers.length; i++) {
