@@ -40,6 +40,7 @@ function initMap() {
             }, // 41.90135225699609, 12.496885028954154 - Hotel Flower Garden
             category: 'hotel',
             name: 'Hotel Flower Garden',
+            website: 'https://www.hotelflowergardenrome.com/',
         },
         {
             coords: {
@@ -48,6 +49,7 @@ function initMap() {
             }, // 41.903540194120055, 12.493172906843931 - Hotel Oceania
             category: 'hotel',
             name: 'Hotel Oceania', // remove h3
+            website: 'https://www.hoteloceania.it/',
         },
         {
             coords: {
@@ -56,6 +58,7 @@ function initMap() {
             }, // 41.9048177258281, 12.500146775491771 - Hotel Windrose
             category: 'hotel',
             name: 'Hotel Windrose',
+            website: 'https://www.hotelwindrose.com/en/',
         },
         {
             coords: {
@@ -64,6 +67,7 @@ function initMap() {
             }, // 41.908123671239544, 12.498108411416945 - Marcella Royal Hotel
             category: 'hotel',
             name: 'Marcella Royal Hotel', // and remove h3 tag
+            website: 'https://www.marcellaroyalhotel.com/',
         },
         {
             coords: {
@@ -72,6 +76,7 @@ function initMap() {
             }, // 41.908890284572934, 12.493601935040736 - Romanico Palace Luxury Hotel & SPA
             category: 'hotel',
             name: 'Romanico Palace Luxury Hotel & SPA',
+            website: 'https://www.hotelromanico.com/en/',
         },
     ];
 
@@ -87,7 +92,10 @@ function initMap() {
         });
 
         var infoWindow = new google.maps.InfoWindow({
-             content: `<h6>${props.name}</h6>`  // replace Brian : content: props.name
+             content: `
+             <h6>${props.name}</h6>
+             <a href="${props.website}" target="_blank">Visite Website</a>
+             `  // replace Brian : content: props.name
         });
         marker.addListener('click', function() {
             infoWindow.open(map, marker);
