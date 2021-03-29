@@ -40,6 +40,7 @@ function initMap() {
             }, // 41.90135225699609, 12.496885028954154 - Hotel Flower Garden
             category: 'hotel',
             name: 'Hotel Flower Garden',
+            description: 'We are committed to offering a top quality level of service and comfort to our guests that exceeds our 3 star rating.',
             website: 'https://www.hotelflowergardenrome.com/',
         },
         {
@@ -49,6 +50,7 @@ function initMap() {
             }, // 41.903540194120055, 12.493172906843931 - Hotel Oceania
             category: 'hotel',
             name: 'Hotel Oceania', // remove h3
+            description: 'Hotel Oceania Rome is an elegant hotel that offers great customer service and comfortable facilities in the heart of Rome.',
             website: 'https://www.hoteloceania.it/',
         },
         {
@@ -58,6 +60,7 @@ function initMap() {
             }, // 41.9048177258281, 12.500146775491771 - Hotel Windrose
             category: 'hotel',
             name: 'Hotel Windrose',
+            description: 'The Hotel is placed in a strategic position in the heart of the town <br>and it is very close to the Termini Station and well linked to all the most interesting historical, artistic and commercial sites of the town.',
             website: 'https://www.hotelwindrose.com/en/',
         },
         {
@@ -67,6 +70,7 @@ function initMap() {
             }, // 41.908123671239544, 12.498108411416945 - Marcella Royal Hotel
             category: 'hotel',
             name: 'Marcella Royal Hotel', // and remove h3 tag
+            description: 'The Marcella Royal Hotel is a first class boutique hotel conveniently situated in the centre of Rome.',
             website: 'https://www.marcellaroyalhotel.com/',
         },
         {
@@ -76,6 +80,7 @@ function initMap() {
             }, // 41.908890284572934, 12.493601935040736 - Romanico Palace Luxury Hotel & SPA
             category: 'hotel',
             name: 'Romanico Palace Luxury Hotel & SPA',
+            description: 'Hotel Romanico Palace & Spa is located in the heart of the city centre, in the Via Veneto - Villa Borghese area,<br> near by the most important tourist attractions of the city.',
             website: 'https://www.hotelromanico.com/en/',
         },
         {
@@ -84,7 +89,8 @@ function initMap() {
                 lng: 12.502436441624294
             }, // 41.90567478570767, 12.502436441624294 - Trattoria "Al Camoscio D'Abruzzo"
             category: 'restaurants',
-            name: 'Trattoria Al Camoscio D Abruzzo',            
+            name: 'Trattoria Al Camoscio D Abruzzo',      
+            description: 'Over the years the philosophy that makes our Trattoria unique has not changed, warmth, <br>hospitality, quality of raw materials have survived intact for decades. ',      
             website: 'http://trattoria-roma.it/',
         },
         {
@@ -94,6 +100,7 @@ function initMap() {
             },  // 41.90473267258463, 12.500483592990138 -  La Famiglia
             category: 'restaurants',
             name: 'La Famiglia',
+            description: 'Today the new generations continue the work of Antonio and Pietro trying to follow the principles for a healthy, simple and genuine cuisine.',
             website: 'https://www.lafamiglia.space/',
         },
          {
@@ -103,6 +110,7 @@ function initMap() {
             }, // 41.906122290884134, 12.495591195614683- Da Giovanni Restaurant Since 1948
             category: 'restaurants',
             name: 'Da Giovanni Restaurant Since 1948',
+            description: 'The restaurant has a room reserved for banquets of 20 people. Respectable wine and liqueur list.',
             website: 'https://www.ristorantedagiovanniroma.it/',
         },
         {
