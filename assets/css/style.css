@@ -42,6 +42,11 @@ button.navbar-toggler {
     margin: 50px;
 }
 
+.famouse-places-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .famouse-places-body img {
     width: 100%;
     height: 450px;
