@@ -113,3 +113,13 @@ footer h5 {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* ------------------------------------------------------ Screen sizes */
+
+@media screen and (max-width: 480px) {
+
+    .famous-places img {
+        width: 300px;
+        height: 200px;
+    }
+}
