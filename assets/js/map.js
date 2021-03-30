@@ -144,15 +144,15 @@ function initMap() {
             website: 'https://botticellapub.com/',
         },
     ];
-
+    
     for (var i = 0; i < markers.length; i++) {
         addMarker(markers[i]);
     }
-
+    
     // add Marker function
     function addMarker(props) {
         var marker = new google.maps.Marker({
-            position: props.coords, // props are used to pass a parent component to a child component.
+        position: props.coords, // props are used to pass a parent component to a child component.
             map: map,
         });
 
@@ -166,8 +166,8 @@ function initMap() {
         marker.addListener('click', function() {
             infoWindow.open(map, marker);
         });
-
     
+
     }
 
 }
