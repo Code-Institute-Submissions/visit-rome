@@ -37,7 +37,8 @@
                                     <a class="nav-link" href="#map">Map</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contac Us</a>
+                                    <a class="nav-link" href="/login" data-toggle="modal"
+                                        data-target="#contactUsModal">Contac Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -54,10 +55,10 @@
                 <span class="text-muted">Toggleable via the navbar brand.</span> -->
                                 <div class="navbar-nav">
                                     <ul>
-                                        <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                                        <li><a class="nav-link" href="#">Famous Places</a></li>
-                                        <li><a class="nav-link" href="#">Map</a></li>
-                                        <li><a class="nav-link" href="#">Contac Us</a></li>                                        
+                                        <li><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                                        <li><a class="nav-link" href="#famous-places">Famous Places</a></li>
+                                        <li><a class="nav-link" href="#map">Map</a></li>
+                                        <li><a class="nav-link" href="/login">Contac Us</a></li>                                        
                                     </ul>
                                 </div>
                             </div>
@@ -93,7 +94,7 @@
                     <img src="assets/images/colloseum.jpg" alt="Colloseum">
                 </div>
                 <div class="col-12 col-sm-4 col-md-4 col-lg-4 famous-places-p">
-                     <p>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium
                         perspiciatis repellendus esse facilis ut, non autem corrupti repudiandae alias quasi saepe
                         labore
@@ -121,8 +122,8 @@
                 </div> -->
             </div>
             <div class="row famous-places-body">
-                 <div class="col-12 col-sm-4 col-md-4 col-lg-4 famous-places-p">
-                     <p>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4 famous-places-p">
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium
                         perspiciatis repellendus esse facilis ut, non autem corrupti repudiandae alias quasi saepe
                         labore
@@ -130,17 +131,17 @@
                     </p>
                     <button type="button" class="btn btn-secondary"></button>
                 </div>
-                  <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                <div class="col-12 col-sm-8 col-md-8 col-lg-8">
                     <img src="assets/images/colloseum.jpg" alt="Colloseum">
                 </div>
 
             </div>
-              <div class="row famous-places-body">
+            <div class="row famous-places-body">
                 <div class="col-12 col-sm-8 col-md-8 col-lg-8">
                     <img src="assets/images/colloseum.jpg" alt="Colloseum">
                 </div>
                 <div class="col-12 col-sm-4 col-md-4 col-lg-4 famous-places-p">
-                     <p>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium
                         perspiciatis repellendus esse facilis ut, non autem corrupti repudiandae alias quasi saepe
                         labore
@@ -148,7 +149,7 @@
                     </p>
                     <button type="button" class="btn btn-secondary"></button>
                 </div>
-        </div>
+            </div>
         </div>
     </section>
 
@@ -162,7 +163,7 @@
                     <button type="button" class="btn btn-success">Shops</button>
                     <button type="button" class="btn btn-success">Bars</button>
                     <button type="button" class="btn btn-success">Hotels</button>
-                   
+
                 </div>
                 <div class="d-none d-md-block col-2"></div>
             </div>
@@ -203,8 +204,30 @@
     </footer>
 
 
+    <!--------------------------------------------------- Modal for Contac Us  -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <div class="modal" tabindex="-1" id="contactUsModal">
+        <div class="modal-dialog">
+            <div class="modal-content-centered ">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
