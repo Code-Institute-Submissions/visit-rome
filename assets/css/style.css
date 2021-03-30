@@ -36,20 +36,25 @@ button.navbar-toggler {
     background-size: cover;
 }
 
-/* ------------------------------------------------------ Famouse-places */
-.famouse-places h2 {
+/* ------------------------------------------------------ Famous-places */
+.famous-places h2 {
     text-align: center;
     margin: 50px;
 }
 
-.famouse-places-body {
+.famous-places-body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.famouse-places-body img {
+.famous-places-body img {
     width: 100%;
     height: 450px;
+}
+
+.famous-places-p {
+    padding: 20px 10px;
+    text-align: center;
 }
 
 /* ------------------------------------------------------ Map */
