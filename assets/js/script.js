@@ -13,7 +13,11 @@ Interestingly enough, the name of Trevi derives from Tre Vie (three ways), since
     });
 
     $("#btn-famous-two").click(function () {
-        $("#p-famous-two").slideToggle("slow").text("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium perspiciatis repellendus esse facilis ut, non autem corrupti repudiandae alias quasi saepe labore eveniet dolore fugiat nostrum? Aut, architecto ullam?");
+        $("#p-famous-two").slideToggle("slow").text(`St. Peter’s Basilica is one of the holiest temples for Christendom and one of the largest churches in the world. Besides, it is where the Pope presides many liturgies all year round.
+
+The construction of the new basilica began in 1506 when the old basilica had been torn down and was finished in 1626. It was consecrated on 18 November 1626. Several renowned architects designed the temple, highlighting the works of Bramante, Michelangelo, and Carlo Maderno.
+
+The basilica was called St Peter’s after one of Jesus’s twelve disciples known as Saint Peter, who became one of the founders of the Catholic Church and was executed in Rome and buried where the Basilica now stands.`);
     });
 
     $("#btn-famous-three").click(function () {
