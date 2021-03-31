@@ -1,5 +1,17 @@
+emailjs.sendForm('gmail', 'rome-page-gmail', '#contactUsForm')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
 
-var myModal = new bootstrap.Modal(document.getElementById('contactUsModal'), options);
+    var templateParams = {
+    name: 'James',
+    notes: 'Check this out!'
+};
+
+
+// var myModal = new bootstrap.Modal(document.getElementById('contactUsModal'), options);
 
 
 // var myModal = document.getElementById('contactUsModal');
@@ -7,14 +19,9 @@ var myModal = new bootstrap.Modal(document.getElementById('contactUsModal'), opt
 
 // myModal.addEventListener('shown.bs.modal', function () {
 //   myInput.focus();
-// })
+// });
 
 
-// emailjs.sendForm('user_Hft1f0wwhp6PvNa61wBb2', 'rome-page-gmail', '#contactUsModal')
-//     .then(function(response) {
-//        console.log('SUCCESS!', response.status, response.text);
-//     }, function(error) {
-//        console.log('FAILED...', error);
-//     });
+
 
 
