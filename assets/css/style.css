@@ -77,6 +77,10 @@ button.navbar-toggler {
     height: 400px;
 }
 
+#map-page h2 {
+    text-align: center;
+}
+
 .map-btn {
         margin-top: 30px;
     margin-bottom: 30px;
