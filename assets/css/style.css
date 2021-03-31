@@ -48,9 +48,11 @@ button.navbar-toggler {
 }
 
 /* ------------------------------------------------------ Famous-places */
+
 .famous-places h2 {
     text-align: center;
-    margin: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .famous-places-body {
