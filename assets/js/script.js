@@ -3,7 +3,13 @@ $(document).ready(function () {
     $(".famous-places-p button").html("Read more").css('background-color', 'blue');
 
     $("#btn-famous-one").click(function () {
-        $("#p-famous-one").slideDown("slow").text("What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?");   // fadeIn(3000)  slideToggle(1000)
+        $("#p-famous-one").slideToggle("slow").text(`Trevi Fountain is the most beautiful fountain in Rome. Measuring some 20 meters in width by 26 meters in height, Trevi Fountain is also the largest fountain in the city.
+
+The origins of the fountain go back to the year 19 B.C., in which period the fountain formed the end of the Aqua Virgo aqueduct. The first fountain was built during the Renaissance, under the direction of Pope Nicholas V.
+
+The final appearance of the Trevi Fountain dates from 1762 when after many years of works at the hand of Nicola Salvi, it was finalized by Giuseppe Pannini.
+
+Interestingly enough, the name of Trevi derives from Tre Vie (three ways), since the fountain was the meeting point of three streets.`);   // fadeIn(3000)  slideToggle(1000)
     });
 
     $("#btn-famous-two").click(function () {
