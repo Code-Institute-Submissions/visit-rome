@@ -122,6 +122,18 @@ footer h5 {
     margin-right: auto;
 }
 
+/* ------------------------------------------------------ Contac Us Form */
+
+form {
+    text-align: center;
+}
+
+form button {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
 /* ------------------------------------------------------ Screen sizes */
 
 @media screen and (max-width: 480px) {
