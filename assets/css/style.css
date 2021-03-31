@@ -126,8 +126,20 @@ footer h5 {
 
 @media screen and (max-width: 480px) {
 
+    .famous-places-body {
+        text-align: center;
+    }
+
     .famous-places img {
         width: 300px;
         height: 200px;
     }
+
+    #map-page h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+   
 }
