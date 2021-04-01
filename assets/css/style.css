@@ -19,7 +19,8 @@
     font-size: 32px;
     font-style: italic;
     font-weight: bold;
-    
+    margin-right: 20px;
+    margin-left: 30px;
 }
 
 .navbar-dark .navbar-brand {
@@ -128,7 +129,7 @@ footer h5 {
 }
 .social-links {
     padding: 20px 0;
-        padding: 20px 0;
+    padding: 20px 0;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -137,6 +138,13 @@ footer h5 {
 /* ------------------------------------------------------ Screen sizes */
 
 @media screen and (max-width: 480px) {
+
+    .navbar-brand {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+    }
 
     .famous-places-body {
         text-align: center;
