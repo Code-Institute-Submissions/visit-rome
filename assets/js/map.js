@@ -1,6 +1,6 @@
 function initMap() {
     // variable that store zoom level and coordinates
-    var options = {
+    const options = {
         zoom: 14,
         center: {
             lat: 41.902782,
@@ -8,7 +8,7 @@ function initMap() {
         }
     };
     // new map called by id
-    var map = new google.maps.Map(document.getElementById("map"), options);
+    const map = new google.maps.Map(document.getElementById("map"), options);
 
     /**
 
@@ -33,7 +33,7 @@ function initMap() {
 
 
     // array of markers
-    var markers = [{
+    const markers = [{
         coords: {
             lat: 41.90135225699609,
             lng: 12.496885028954154
@@ -175,18 +175,18 @@ function initMap() {
     },
     ];
 
-    for (var i = 0; i < markers.length; i++) {
+    for (let i = 0; i < markers.length; i++) {
         addMarker(markers[i]);
     }
 
     // add Marker function
     function addMarker(props) {
-        var marker = new google.maps.Marker({
+        let marker = new google.maps.Marker({
             position: props.coords, // props are used to pass a parent component to a child component.
             map: map,
         });
 
-        var infoWindow = new google.maps.InfoWindow({
+        let infoWindow = new google.maps.InfoWindow({
             content: `
              <h6>${props.name}</h6>
              <p>${props.description}</p>
