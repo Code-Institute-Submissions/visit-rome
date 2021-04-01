@@ -131,6 +131,12 @@ button.navbar-toggler {
     padding: 15px 15px;
 }
 
+.btn-success {
+    color: #6c757d;
+    background-color: #f0e7dc;
+    border-color: #999fa3;
+}
+
 /* ------------------------------------------------------ Footer */
 
 footer {
@@ -212,11 +218,11 @@ footer h5 {
     margin-bottom: 30px;
 }
 
-.btn-success {
+/* .btn-success {
     color: #6c757d;
     background-color: #f0e7dc;
     border-color: #999fa3;
-}
+} */
 
 #contactUsForm button {
     margin-top: 20px;
@@ -232,6 +238,7 @@ footer h5 {
 
 .social-links {
     font-size: 30px;
+    margin-top: 15px;
 }
 
 }
@@ -241,5 +248,16 @@ footer h5 {
 
 
 @media screen and (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 50px;
+    }
+
+    .navbar-nav {
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 50px;
+    }
+
 
 }
