@@ -32,6 +32,6 @@ The basilica was called St Peter’s after one of Jesus’s twelve disciples kno
     $(".famous-places-p-two h3").text("St. Peter's Basilica");
     $(".famous-places-p-three h3").text("Colosseum");
 
-
+    $(".famous-places-header p").text("Rome is breath-tahing open-air museum and these are its top sights.");
 });
 
