@@ -65,7 +65,9 @@ button.navbar-toggler {
     height: 450px;
 }
 
-.famous-places-p {
+.famous-places-p-one,
+.famous-places-p-two,
+.famous-places-p-three {
     padding: 20px 10px;
     text-align: center;
 }

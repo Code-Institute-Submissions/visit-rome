@@ -1,6 +1,10 @@
 $(document).ready(function () {
     $(".famous-places h2").html("Places you must see in Rome");
-    $(".famous-places-p button").html("Read more").css('background-color', 'blue');
+    $(".famous-places-p-one button").html("Read more").css('background-color', 'blue');
+    $(".famous-places-p-two button").html("Read more").css('background-color', 'blue');
+    $(".famous-places-p-three button").html("Read more").css('background-color', 'blue');
+
+
 
     $("#btn-famous-one").click(function () {
         $("#p-famous-one").slideToggle("slow").text(`Trevi Fountain is the most beautiful fountain in Rome. Measuring some 20 meters in width by 26 meters in height, Trevi Fountain is also the largest fountain in the city.
@@ -23,6 +27,11 @@ The basilica was called St Peter’s after one of Jesus’s twelve disciples kno
     $("#btn-famous-three").click(function () {
         $("#p-famous-three").slideToggle("slow").text("LThe Colosseum is an oval amphitheatre in the centre of the city of Rome and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian in 72 and was completed in AD 80 under his successor and heir, Titus. Further modifications were made during the reign of Domitian. The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre by later classicists and archaeologists for its association with their family name (Flavius).");
     });
+
+    $(".famous-places-p-one h3").text("Trevi Fountain");
+    $(".famous-places-p-two h3").text("St. Peter's Basilica");
+    $(".famous-places-p-three h3").text("Colosseum");
+
 
 });
 
