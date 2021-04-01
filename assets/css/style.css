@@ -154,6 +154,10 @@ footer h5 {
     margin-right: auto;
 }
 
+.social-links li a {
+    color: #00ffff;
+}
+
 /* ------------------------------------------------------ Screen sizes */
 
 @media screen and (max-width: 480px) {
@@ -183,6 +187,10 @@ footer h5 {
     .famous-places h2 {
         margin-top: 130px;
         margin-bottom: 50px;
+    }
+
+    .visit-rome h2 {
+        margin-bottom: 30px;
     }
 
     .famous-places-body {
@@ -220,6 +228,10 @@ footer h5 {
 .modal-footer {
     text-align: center;
     display: block;
+}
+
+.social-links {
+    font-size: 30px;
 }
 
 }
