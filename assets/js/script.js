@@ -1,8 +1,8 @@
 $(document).ready(function () {
     $(".famous-places h2").html("Places you must see in Rome");
-    $(".famous-places-p-one button").html("Read more").css('background-color', 'blue');
-    $(".famous-places-p-two button").html("Read more").css('background-color', 'blue');
-    $(".famous-places-p-three button").html("Read more").css('background-color', 'blue');
+    $(".famous-places-p-one button").html("Read more").css('background-color', '#f0e7dc');
+    $(".famous-places-p-two button").html("Read more").css('background-color', '#f0e7dc');
+    $(".famous-places-p-three button").html("Read more").css('background-color', '#f0e7dc');
 
 
 

@@ -65,12 +65,18 @@ button.navbar-toggler {
     height: 450px;
 }
 
+.famous-places-body button {
+    color: #6c757d;;
+}
+
 .famous-places-p-one,
 .famous-places-p-two,
 .famous-places-p-three {
     padding: 20px 10px;
-    text-align: center;
+    text-align: justify;
 }
+
+
 
 /* ------------------------------------------------------ Map */
 
