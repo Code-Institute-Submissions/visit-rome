@@ -166,12 +166,13 @@ footer h5 {
     }
 
     .about{
-        height: 30vh;
+        height: 40vh;
         margin-top: 30px;
         text-align: center;
         padding-top: 30px;
         padding-right: 10px;
         padding-left: 10px;
+        margin-bottom: 60px;
 }
 
 .visit-rome p {
@@ -179,6 +180,9 @@ footer h5 {
     text-align: center;
 }
 
+    .famous-places h2 {
+        margin-bottom: 50px;
+    }
 
     .famous-places-body {
         text-align: center;
@@ -197,6 +201,12 @@ footer h5 {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
+}
+
+.btn-success {
+    color: #6c757d;
+    background-color: #f0e7dc;
+    border-color: #999fa3;
 }
 
 #contactUsForm button {
