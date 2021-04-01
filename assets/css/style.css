@@ -45,7 +45,7 @@ button.navbar-toggler {
     height: 100vh;
     background-color: blue;
 
-    background: url("../images/marco-chilese.jpg") center center no-repeat;
+    background: url("../images/marco-chilese.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,7 +55,7 @@ button.navbar-toggler {
 /* ------------------------------------------------------ About         */
 
   .about{
-        height: 10vh;
+        height: 20vh;
         margin-top: 30px;
         text-align: justify;
         padding-top: 30px;
@@ -179,6 +179,10 @@ footer h5 {
     .famous-places img {
         width: 300px;
         height: 200px;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;     
     }
 
     #map-page h2 {
