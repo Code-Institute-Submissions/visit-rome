@@ -5,6 +5,10 @@ body {
 
 /* ------------------------------------------------------ Navbar */
 
+.nav-container {
+    padding-left: 0;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
