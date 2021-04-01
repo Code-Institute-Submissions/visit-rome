@@ -187,7 +187,7 @@ footer h5 {
 
 .visit-rome p {
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
 }
 
     .famous-places h2 {
@@ -247,10 +247,10 @@ footer h5 {
    
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .navbar-brand {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .navbar-nav {
@@ -258,9 +258,24 @@ footer h5 {
         text-align: justify;
         margin-left: 50px;
     }
+    
+      .reverse {
+        display: flex;
+        flex-direction: column-reverse;     
+    }
+
+    #map-page h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.map-page-body {
+    margin-bottom: 60px;
+}
 
     .social-links {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
