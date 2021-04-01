@@ -25,16 +25,18 @@ The basilica was called St Peter’s after one of Jesus’s twelve disciples kno
     });
 
     $("#btn-famous-three").click(function () {
-        $("#p-famous-three").slideToggle("slow").text("LThe Colosseum is an oval amphitheatre in the centre of the city of Rome and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian in 72 and was completed in AD 80 under his successor and heir, Titus. Further modifications were made during the reign of Domitian. The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre by later classicists and archaeologists for its association with their family name (Flavius).");
+        $("#p-famous-three").slideToggle("slow").text("The Colosseum is an oval amphitheatre in the centre of the city of Rome and is the largest ancient amphitheatre ever built, and is still the largest standing amphitheater in the world today, despite its age. Construction began under the emperor Vespasian in 72 and was completed in AD 80 under his successor and heir, Titus. Further modifications were made during the reign of Domitian. The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre by later classicists and archaeologists for its association with their family name (Flavius).");
     });
 
     $(".famous-places-p-one h3").text("Trevi Fountain");
     $(".famous-places-p-two h3").text("St. Peter's Basilica");
     $(".famous-places-p-three h3").text("Colosseum");
 
-    // $(".famous-places-header p").text("Rome is spectacular open-air museum and these are its top sights.");
+    $(".visit-rome").html(`<h2>Why you should visit the Rome</h2>
+     <p>With its unparalleled history, Rome is the third most visited city in Europe and the fourteenth worldwide. With its breathtaking buildings and monuments, incredible works of art, small-town charm, leisurely pace of life, and world-renowned cuisine, the Eternal City is worth a visit at least once, though it would take a lifetime to see all it has to offer.</p>
+     `);
 
-    $(".visit-rome > p").text(`With its unparalleled history, Rome is the third most visited city in Europe and the fourteenth worldwide. With its breathtaking buildings and monuments, incredible works of art, small-town charm, leisurely pace of life, and world-renowned cuisine, the Eternal City is worth a visit at least once, though it would take a lifetime to see all it has to offer.`);
+    
 
 
 });
