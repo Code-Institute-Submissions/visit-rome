@@ -11,10 +11,7 @@ This interactive website was created for a non-existing travel guide.
 The website you can view here - [Rome](https://andrius-siup.github.io/visit-rome/) .
 
 # UX
-
-who this website for...
-what it is that they want to achiev...
-how this project is the best way to help them achieve these things.
+ 
 
 ## User Stories
 
@@ -61,16 +58,39 @@ All Page
 
 
 # Features
-this setion I should go over the different parts of project, describe each section in sentense or so.
 
-## Existing Features
- * Feature 1 - allows users X to achieve Y, by having them fill out Z.
+* Navigation bar 
+
+    * There is hamburger button on the mobile view.
+    * Fixed 
+    * Links
+    * Logo - brings you on the home page.
+
+ * Home-page
+
+    * There is image castle in the night
+    * Short paragraph why you have to visit Rome 
  
- In additional, I use this section to discuss plans for additional features to be 
- implemented in the future:
+
+ * Famouse Places
+
+     *  There is used bootsrap for grid layout
+     * On mobile view change grid layout
+     * Buttons used slide toggle - the user can open and close paragraphs
+
+* Map
+ 
+    * Buttons in the future will show markers position on the map
+    * When clicking on the markers it shows info window about place, with link to this website.
+ 
+ * Contact Us form
+
+    * EmailJS I used 
+    * Check all field before submitting
+    * Functional contact us form, sends to my email, when user submited.
 
  ## Features Left to implemented
- *Another feature idea
+ 
 
  # Technologie Used
 
