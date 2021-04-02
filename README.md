@@ -11,17 +11,17 @@ how this project is the best way to help them achieve these things.
 
 ## User Stories
 
-    * As a user type, I want to perform an action, so that I can achieve a goal.
-    * As a user of the website, I would like to that website will be responsive, that I can use it from any device.
-    * As a user of the website, I would like to see a user-friendly website with normal color contrasts, handy navigation bar.
-    * As a user of the website, I would like to contact the website admin, for my personal questions.
-    * As a user of the website, I would like to see the map of the city.
-    * As a user of the website, I would like to see the markers in the map for recommended places to visit, to plan my journey.
-    * As a user of the website, I would like to see in the marker of the map, useful information about places with links to their own sites.
-    * As a user of the website, I would like to see recommended hotels for city visitors, where I can stay.
-    * As a user of the website, I would like to see recommended restaurants for city visitors, where I can visit to taste Italian kitchen.
-    * As a user of the website, I would like to see recommended bars for city visitors, where I can spend little entertainment time. 
-    * As a user of the website, I would like to see the website's social media links, to see the comments, or find some more information from the others visitors to the city.
+* As a user type, I want to perform an action, so that I can achieve a goal.
+* As a user of the website, I would like to that website will be responsive, that I can use it from any device.
+* As a user of the website, I would like to see a user-friendly website with normal color contrasts, handy navigation bar.
+* As a user of the website, I would like to contact the website admin, for my personal questions.
+* As a user of the website, I would like to see the map of the city.
+* As a user of the website, I would like to see the markers in the map for recommended places to visit, to plan my journey.
+* As a user of the website, I would like to see in the marker of the map, useful information about places with links to their own sites.
+* As a user of the website, I would like to see recommended hotels for city visitors, where I can stay.
+* As a user of the website, I would like to see recommended restaurants for city visitors, where I can visit to taste Italian kitchen.
+* As a user of the website, I would like to see recommended bars for city visitors, where I can spend little entertainment time. 
+* As a user of the website, I would like to see the website's social media links, to see the comments, or find some more information from the others visitors to the city.
 
 ## Wireframes
 
