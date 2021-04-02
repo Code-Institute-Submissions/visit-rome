@@ -52,7 +52,10 @@ All Page
 
 ## Mockups
 
-## Diagrams?
+![](assets/images/responsive-design/responsive-design-1.png)
+![](assets/images/responsive-design/responsive-design-midle-1.png)
+![](assets/images/responsive-design/map-responsive-1.png)
+
 
 # Features
 this setion I should go over the different parts of project, describe each section in sentense or so.
