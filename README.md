@@ -7,6 +7,9 @@ This is a "Rome" lading page for Italian capital visitors. On this site, users c
 There is short text content besides famous places images. Also on the site is a map with recommended places for Rome visitors. 
 They are famous places, hotels, restaurants, bars. In the map are markers with the real coordinates of the place, that will showplace that is visitor has to see. 
 This interactive website was created for a non-existing travel guide.
+
+The website you can view here - [Rome](https://andrius-siup.github.io/visit-rome/) .
+
 # UX
 
 who this website for...
@@ -98,22 +101,46 @@ navbar, trainer cards, sign up / sign in and contact us forms.
 
  ## Testing User Stories
 
- The user looking for some information about Rome.  famous places, camming to this website
-  , clicking on the navigation link, find famous places, clicking the the read more button, 
-  read short text content about place. 
+ The user looking for some information about Rome famous places, visiting this website clicking on the navigation link, finds famous places, by clicking the read more button,
+ can read short text content about the place.
 
-  User looking for information on the map in this website, clicking on the map link or scrolling 
-  down, find map. Tahn interesting on the map markers, see that a lot markers and they close each together.
+ The user looking for information on the map in this website, by clicking on the map link or scrolling
+ down, find the map. Then interesting on the map markers, see that a lot of markers and they close each together.
 
-  User click on the markers and get useful information, that can make plan for day activities.
+ Users click on the markers to get useful information, can make route plans for daily activities. 
+ 
+ Users that are interested in the trip and want to contact the site admin for a plan to trip, click on
+ the navigation link Contact Us. Form is opened. Then the user has to fill in all fields before submitting the form
+ because the form has the required attribute.
 
-  User are interestet about trip, want to contact to site admin for paln to trip, goes to 
-  navigation link Contact Us. Form is opened. Than user have to fill in all fields before sumited, 
-  becouse form has required attribute. 
+ When the user sends the request for some questions, the admin gets an email from him with the name
+ and email link to send him a reply. They have a conversation.
 
-  When the user send the request for some questions, admin get email from him with the name 
-  and email link to send him answers. They have conversation about trip.
+ There were few warnings on the CSS validator, but was easily to fix: in the < section > was written < h1 > and 
+another warning was that < section > was without h2-h6. All the project time I am regularly used the below validators to avoid errors.
+There were typo errors that were fixed. Also left some warnings in the HTML validator, but will be fixed in the future.
 
+[HTML Validator](https://validator.w3.org/)   
+![](assets/images/validator/html-validator.png) 
+
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![](assets/images/validator/css-validator.png) 
+
+
+[jshint](https://jshint.com/)
+
+![](assets/images/validator/map-jshint.png) 
+
+
+[jshint](https://jshint.com/)
+
+![](assets/images/validator/send-mail.png) 
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) - was used to improve the quality of the website.
+
+![](assets/images/validator/lighthouse.png)
 
  # Deployment
 
