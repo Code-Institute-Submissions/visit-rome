@@ -27,6 +27,10 @@ how this project is the best way to help them achieve these things.
 
 ## Wireframes
 
+Home Page
+
+![Home](assets/images/wireframes/wireframe-home-page.png)
+
 
 ## Mockups
 
@@ -48,10 +52,11 @@ this setion I should go over the different parts of project, describe each secti
 
  * [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for website.
  * [CSS](https://en.wikipedia.org/wiki/CSS) - provides the styling.
- * [jQuery](https://jquery.com/)
- * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+ * [jQuery](https://jquery.com/) - was used for website interactives.
+ * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - was used to create Google map on the site.
  * [Gitpod](https://www.gitpod.io/) - used for write the all code, commited, pushed to the GitHub.
  * [GitHub](https://github.com/) - used for hosting this code and deployment.
+ * [Grammarly](https://app.grammarly.com/) - was used for check typo.
 
 
 ### Design
