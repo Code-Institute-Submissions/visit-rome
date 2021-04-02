@@ -36,8 +36,5 @@ The basilica was called St Peter’s after one of Jesus’s twelve disciples kno
      <p>With its unparalleled history, Rome is the third most visited city in Europe and the fourteenth worldwide. With its breathtaking buildings and monuments, incredible works of art, small-town charm, leisurely pace of life, and world-renowned cuisine, the Eternal City is worth a visit at least once, though it would take a lifetime to see all it has to offer.</p>
      `);
 
-    
-
-
 });
 

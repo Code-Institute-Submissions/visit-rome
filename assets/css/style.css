@@ -137,6 +137,13 @@ button.navbar-toggler {
     border-color: #999fa3;
 }
 
+/* ------------------------------------------------------ Modal */
+
+.modal-footer {
+    text-align: center;
+    display: block;
+}
+
 /* ------------------------------------------------------ Footer */
 
 footer {
@@ -162,6 +169,16 @@ footer h5 {
 
 .social-links li a {
     color: #00ffff;
+}
+
+/* ------------------------------------------------------ Form */
+
+
+#contactUsForm button {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
 }
 
 /* ------------------------------------------------------ Screen sizes */
