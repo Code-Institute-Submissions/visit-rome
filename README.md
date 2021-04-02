@@ -29,7 +29,7 @@ how this project is the best way to help them achieve these things.
 
 Home Page
 
-![Home](assets/images/wireframes/wireframe-home-page.png)
+![Home](assets/images/wireframes/wireframe-home-page-2.png)
 
 
 ## Mockups
