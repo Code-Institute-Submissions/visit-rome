@@ -142,6 +142,8 @@ There were typo errors that were fixed. Also left some warnings in the HTML vali
 
 ![](assets/images/validator/lighthouse.png)
 
+There is Best Practices place in Lighthouse that will be fixed in the future.
+
  # Deployment
 
  The websited is hosted on my Github page.
@@ -188,10 +190,10 @@ The website was created by Andrius Siupinys.
  
 
  ## Acknowledgements
- * I received inspiration for this project from X...
-
- * Brian Macharia - mentor support, huge help through the project.
- * Slack community - help for solve code isues.
+ * I received inspiration for the google map section from youtube channel [Traversy Media](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=4s). Also used Google API documentation.
+ *  For the mailJS on the Contact Us form I used CI video tutorial and also mailJS documentation.
+ * Brian Macharia - mentor support, huge help through the project. Thank you 
+ * Also want to thank you for CI tutor suport.
 
 
 
