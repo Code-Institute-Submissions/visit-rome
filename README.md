@@ -1,6 +1,8 @@
 
 # Rome
 
+![](assets/images/responsive-design/responsive-design.png)
+
 This is a "Rome" lading page for Italian capital visitors. On this site, users can find useful information about famous places in Rome. 
 There is short text content besides famous places images. Also on the site is a map with recommended places for Rome visitors. 
 They are famous places, hotels, restaurants, bars. In the map are markers with the real coordinates of the place, that will showplace that is visitor has to see. 
@@ -90,6 +92,25 @@ navbar, trainer cards, sign up / sign in and contact us forms.
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/) - used for testing and found new ideas, it's like in sandbox.
 
  # Testing
+
+ ## Testing User Stories
+
+ The user looking for some information about Rome.  famous places, camming to this website
+  , clicking on the navigation link, find famous places, clicking the the read more button, 
+  read short text content about place. 
+
+  User looking for information on the map in this website, clicking on the map link or scrolling 
+  down, find map. Tahn interesting on the map markers, see that a lot markers and they close each together.
+
+  User click on the markers and get useful information, that can make plan for day activities.
+
+  User are interestet about trip, want to contact to site admin for paln to trip, goes to 
+  navigation link Contact Us. Form is opened. Than user have to fill in all fields before sumited, 
+  becouse form has required attribute. 
+
+  When the user send the request for some questions, admin get email from him with the name 
+  and email link to send him answers. They have conversation about trip.
+
 
  # Deployment
 
