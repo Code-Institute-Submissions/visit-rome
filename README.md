@@ -106,7 +106,12 @@ The website was created by Andrius Siupinys.
  * The text for section Y was copied from the ...
 
  ## Media
- * The photos used in this site were obtained from...
+ * The photo used on the home page in this site were obtained from [Unsplash](https://unsplash.com/photos/vnv6nKdtqLc) website.
+ * The photo used for the visit to St. Peter's Basilica in this site was obtained from [shutterstock](https://www.shutterstock.com/image-photo/st-peters-basilica-evening-via-della-1218983827) website.
+ * The photo used for the visit to Coloseum in this site was obtained from [shutterstock](https://www.shutterstock.com/image-photo/sunrise-view-colosseum-rome-italy-architecture-789412159) website.
+ * The photo used for the visit to Trevi Fountain in this site was obtained from [Unsplash](https://unsplash.com/photos/pbBeTkp97ic) website.
+ * All text content was be taken from Google and edited for website purposes.
+ 
 
  ## Acknowledgements
  * I received inspiration for this project from X...
