@@ -29,9 +29,19 @@ how this project is the best way to help them achieve these things.
 
 Home Page
 
-![Home](assets/images/wireframes/wireframe-home-page-2.png)
+![Home](assets/images/wireframes/wireframe-home-page.png)
 
+Famous places
 
+![Famous Places](assets/images/wireframes/wireframe-famous-places.png)
+
+Map
+
+![Map](assets/images/wireframes/wireframe-map.png)
+
+All Page
+ 
+![All Page](assets/images/wireframes/wireframe-all-page.png)
 ## Mockups
 
 ## Diagrams?
