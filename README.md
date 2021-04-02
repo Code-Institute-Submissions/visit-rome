@@ -1,8 +1,10 @@
 
 # Rome
 
-short storie about page.
-
+This is a "Rome" lading page for Italian capital visitors. On this site, users can find useful information about famous places in Rome. 
+There is short text content besides famous places images. Also on the site is a map with recommended places for Rome visitors. 
+They are famous places, hotels, restaurants, bars. In the map are markers with the real coordinates of the place, that will showplace that is visitor has to see. 
+This interactive website was created for a non-existing travel guide.
 # UX
 
 who this website for...
@@ -103,14 +105,14 @@ The website was created by Andrius Siupinys.
  # Credits
 
  ## Content
- * The text for section Y was copied from the ...
+ * All text content was be taken from Google and edited for website purposes.
 
  ## Media
  * The photo used on the home page in this site were obtained from [Unsplash](https://unsplash.com/photos/vnv6nKdtqLc) website.
  * The photo used for the visit to St. Peter's Basilica in this site was obtained from [shutterstock](https://www.shutterstock.com/image-photo/st-peters-basilica-evening-via-della-1218983827) website.
  * The photo used for the visit to Coloseum in this site was obtained from [shutterstock](https://www.shutterstock.com/image-photo/sunrise-view-colosseum-rome-italy-architecture-789412159) website.
  * The photo used for the visit to Trevi Fountain in this site was obtained from [Unsplash](https://unsplash.com/photos/pbBeTkp97ic) website.
- * All text content was be taken from Google and edited for website purposes.
+ 
  
 
  ## Acknowledgements
